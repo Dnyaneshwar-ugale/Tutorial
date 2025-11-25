@@ -81,3 +81,13 @@ if __name__ == '__main__':
 def main(odb_path, step_name=None, frame_index=None, outdir='.'):
     """Extract displacements and stresses. Writes CSV files to outdir."""
 # ...existing code...
+# ...existing code...
+# Abaqus Python script - run with: abaqus python extract_odb.py <odb_path> [stepName] [frameIndex] [outdir]
+"""Abaqus ODB result extraction helpers.
+This script extracts nodal displacements and element stresses to CSV.
+"""
+# ...existing code...
+def main(odb_path, step_name=None, frame_index=None, outdir='.'):
+    """Extract displacements and stresses. Writes CSV files to outdir."""
+# ...existing code...
+# removed duplicated main and comments at file end
