@@ -72,3 +72,12 @@ if __name__ == '__main__':
         print("Usage: abaqus python extract_odb.py <odb_path> [stepName] [frameIndex] [outdir]")
     else:
         main(*sys.argv[1:])
+
+
+        # ...existing code...
+# Abaqus Python script - run with: abaqus python extract_odb.py <odb_path> [stepName] [frameIndex] [outdir]
+# Added: small CLI help and error exit codes
+# ...existing code...
+def main(odb_path, step_name=None, frame_index=None, outdir='.'):
+    """Extract displacements and stresses. Writes CSV files to outdir."""
+# ...existing code...
